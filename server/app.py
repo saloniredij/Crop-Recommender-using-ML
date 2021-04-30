@@ -60,7 +60,7 @@ def home():
 
 @ app.route('/crop-predict', methods=['POST'])
 def crop_prediction():
-    title = 'Harvestify - Crop Recommendation'
+    title = 'Crop Recommendation'
 
     if request.method == 'POST':
         N = int(request.form['nitrogen'])
